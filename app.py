@@ -67,7 +67,7 @@ def main():
 
     # Header
     st.markdown(f'<div class="centered-logo"><img src="{PSPCL_LOGO_URL}" width="120"></div>', unsafe_allow_html=True)
-    st.markdown('<div class="header-text"><h1>PSPCL Multipurpose PRO Rata Calculator</h1><p>Supply Code 2024 | CC 45/2024 | CC 35/2025 (Annual 6% Compounded Increase)</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="header-text"><h1>PSPCL Multipurpose PRO Rata Calculator</h1><p>Supply Code 2024 | CC 45/2024 | CC 51/2024 | CC 35/2025 |(Annual 6% Compounded Increase)</p></div>', unsafe_allow_html=True)
 
     tab1, tab2 = st.tabs(["⚡ Individual Connection / Extension", "🏗️ Colony Developer NOC"])
 
@@ -152,8 +152,8 @@ def main():
                     st.markdown(f'<div style="color: #dc2626; font-weight: bold; font-size: 1.2rem;">₹ {format_indian_currency(bg_105)}</div>', unsafe_allow_html=True)
 
             with res_c2:
-                st.markdown("### 💰 Cash Deposit (JMA Krwane Yogya)")
-                st.write("**Total Cash/Draft to be Deposited:**")
+                st.markdown("### 💰 Amount to be Deposited after issuance of NOC")
+                st.write("**Total Draft to be Deposited:**")
                 st.markdown(f'<div class="payable-amount">₹ {format_indian_currency(total_noc_cash)}</div>', unsafe_allow_html=True)
                 
                 with st.expander("🔍 View Cash Breakdown"):
@@ -187,7 +187,7 @@ def main():
         </div>
         <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase;">In Strategic Collaboration with</div>
         <a href="https://beeclue.com" target="_blank"><img src="{BEECLUE_LOGO_PNG}" class="beeclue-img" width="140"></a>
-        <div style="color: #94a3b8; font-size: 0.85rem; margin-top: 25px;">© 2026 | Supply Code 2024 | CC 35/2025 | Ver 2.1</div>
+        <div style="color: #94a3b8; font-size: 0.85rem; margin-top: 25px;">© 2026 | Supply Code 2024 | PSPCL Guidelines | Ver 2.1</div>
     </div>"""
     st.markdown(footer_html, unsafe_allow_html=True)
 
